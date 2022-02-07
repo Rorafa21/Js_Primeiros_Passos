@@ -14,16 +14,15 @@ console.log(listaDeDestinos)
 if (idadeComprador >= 18){
     console.log("Comprador maior de idade. :D")
     listaDeDestinos.splice(1,1) //removendo item
-}else{
-    //A pessoa é menor de idade
-    if(estaAcompanhada){
+}else if
+    (estaAcompanhada){
         console.log("Comprador está acompanhado")
         listaDeDestinos.splice(1,1)
     }else{
         console.log("Comprador não é maior de idade!!!")
     }
     
-}
+
 
     
 
