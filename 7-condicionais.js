@@ -5,8 +5,9 @@ const listaDeDestinos = new Array(
     "São Paulo",
     "Rio de Janeiro" ,
 )
-const idadeComprador = 15
-const estaAcompanhada = true
+const idadeComprador = 18;
+const estaAcompanhada = false;
+let temPassagemComprada = false;
 
 console.log("Destinos possiveis:")
 console.log(listaDeDestinos)
